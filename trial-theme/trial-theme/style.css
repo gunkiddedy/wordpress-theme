@@ -1,0 +1,179 @@
+/*!
+Theme Name: trial-theme
+Theme URI: http://underscores.me/
+Author: Underscores.me
+Author URI: http://underscores.me/
+Description: Description
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: trial-theme
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+trial-theme is based on Underscores https://underscores.me/, (C) 2012-2017 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
+*/
+
+
+body{
+    border-top: 15px solid #ffd400;
+    font-family: 'Roboto', sans-serif;
+}
+label {
+    font-size: 16px;
+    font-family: roboto;
+    line-height: 23px;
+    color: #292929;
+    font-weight: normal;
+    margin-left: 5px;
+}
+h1,h2,h3{
+    font-weight: bold;
+}
+
+/* scroll to top */
+.scroll-top {
+    position: fixed;
+    bottom: 50px;
+    right: 25px;
+    box-shadow: 1px 1px 2px 1px #74777c;
+    display:none;
+}
+.scroll-top:hover{
+    box-shadow: 2px 2px 3px 1px #74777c;
+}
+
+/* slide nav comment */
+.nav-slide-comment {
+    box-shadow: 1px 1px 2px 1px #74777c;
+    background-color: #f2f2f2;
+    color:#7977f5;
+}
+
+/* media query */
+@media only screen and (max-width: 600px) {
+    .navmenu {
+        display: none;
+    }
+}
+@media only screen and (min-width: 601px) {
+    .navmenu-bar {
+        display: none;
+    }
+    .srcovrly {
+        display: none;
+    }
+}
+
+/* title Buy Custom Content For Your Online Marketing in Section-1*/
+.title-1{
+    font-family: "Libre Baskerville", Sans-serif;
+    font-size: 53px;
+    font-weight: 700;
+    line-height: 70px;
+    letter-spacing: -1px;
+}
+.title-2{
+    font-family: "Libre Baskerville", Sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 33px;
+    letter-spacing: 0px;
+}
+
+/* title Custom Content Examples in Section-2 */
+.text-desc-title{
+    color: #292929;
+    font-family: "Libre Baskerville", Sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -1px;
+    margin: 0px 0px 10px 0px;
+}
+
+/* quote in section-4 */
+.quote{
+    color:#f2f2f2;
+}
+
+/* custom color bottom yellow */
+.btn-yellow{
+    font-family: "Roboto", Sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 19px;
+    letter-spacing: 1px;
+    fill: #292929;
+    color: #292929;
+    background-color: #ffd400;
+    border-radius: 5px 5px 5px 5px;
+    padding: 25px 110px 25px 110px;
+}
+
+/* custom logo in header navmenu*/
+.custom-logo{
+    max-height: unset!important;
+    max-width: 77px!important;
+}
+
+/* circle button yellow */
+.btn-small-circle{
+    background-color: #ffd400;
+    width: 28px;
+    height: 28px;
+    color: #fff;
+}
+
+.uk-list{
+    font-weight: bold;
+}
+.span-small{
+    font-size: 13px;
+}
+
+/* custom size number  */
+.big-number{
+    font-family: "Roboto", Sans-serif;
+    font-size: 90px;
+    font-weight: 200;
+}
+
+/* background-image- 'and logo' */
+.custom-hero{
+    background-image: url('img/amp.png');
+    background-repeat: no-repeat;
+    background-position: top right -40px;
+}
+
+/* masonry custom */
+.uk-masonry{
+    background-color: #eeeeee;
+    text-align: center;
+}
+.masonry-title{
+    font-weight: bold;
+}
+.masonry-title-overlay{
+    background-color: #f2f2f2;
+    position: absolute!important;
+    top: 0!important;
+    left: 0!important;
+    margin-left: 15px!important;
+    margin-top: 10px!important;
+    border-radius: 50px!important;
+    font-size: 14px!important;
+    line-height: 23px!important;
+    font-weight: 400!important;
+    font-family: 'Roboto'!important;
+    padding: 5px 15px!important;
+    color: #595959!important;
+    box-shadow: 0px 1px 3px 0 rgba(0,0,0,0.3);
+}
